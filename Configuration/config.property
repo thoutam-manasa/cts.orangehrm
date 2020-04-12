@@ -1,0 +1,5 @@
+chromeDriver=C:\\Users\\pc\\eclipse-workspace\\cts.orangehrm\\src\\test\\resources\\binaries\\chromedriver.exe
+firefoxDriver=C:\\Users\\pc\\eclipse-workspace\\cts.orangehrm\\src\\test\\resources\\binaries\\geckodriver.exe
+URL=https://opensource-demo.orangehrmlive.com/
+
+Excelpath=C:\\Users\\pc\\eclipse-workspace\\cts.orangehrm\\src\\test\\resources\\XLS\\Test.xlsx
