@@ -1,0 +1,31 @@
+2020-04-13 01:07:09,256 [main] INFO stepdefinition - Chrome Driver Opened
+2020-04-13 01:08:19,906 [main] INFO stepdefinition - Navigated to URL
+2020-04-13 01:08:25,347 [main] INFO stepdefinition - Credentials entered
+2020-04-13 01:08:33,716 [main] INFO stepdefinition - Application is closed
+2020-04-13 01:08:43,732 [main] INFO stepdefinition - Chrome Driver Opened
+2020-04-13 01:09:00,880 [main] INFO stepdefinition - Navigated to URL
+2020-04-13 01:09:01,913 [main] INFO stepdefinition - Credentials entered
+2020-04-13 01:09:16,110 [main] INFO stepdefinition - Admin is clicked
+2020-04-13 01:09:18,891 [main] INFO stepdefinition - username entered
+2020-04-13 01:09:20,685 [main] INFO stepdefinition - Search button clicked
+2020-04-13 01:09:20,688 [main] INFO stepdefinition - User details displayed
+2020-04-13 01:09:27,237 [main] INFO stepdefinition - Chrome Driver Opened
+2020-04-13 01:09:39,315 [main] INFO stepdefinition - Navigated to URL
+2020-04-13 01:09:40,130 [main] INFO stepdefinition - Credentials entered
+2020-04-13 01:09:48,299 [main] INFO stepdefinition - Directory is clicked
+2020-04-13 01:09:48,919 [main] INFO stepdefinition - Employee name entered
+2020-04-13 01:09:49,961 [main] INFO stepdefinition - Search button clicked
+2020-04-13 01:09:49,966 [main] INFO stepdefinition - User details displayed
+2020-04-13 01:09:56,719 [main] INFO stepdefinition - Chrome Driver Opened
+2020-04-13 01:10:05,993 [main] INFO stepdefinition - Navigated to URL
+2020-04-13 01:10:06,751 [main] INFO stepdefinition - Credentials entered
+2020-04-13 01:10:14,264 [main] INFO stepdefinition - Assign leave is clicked 
+2020-04-13 01:10:15,315 [main] INFO stepdefinition - Employee name entered
+2020-04-13 01:10:15,827 [main] INFO stepdefinition - leave type selected
+2020-04-13 01:10:16,297 [main] INFO stepdefinition - From calender clicked
+2020-04-13 01:10:16,594 [main] INFO stepdefinition - From date entered
+2020-04-13 01:10:16,872 [main] INFO stepdefinition - To calender clicked
+2020-04-13 01:10:17,130 [main] INFO stepdefinition - To date entered
+2020-04-13 01:10:17,479 [main] INFO stepdefinition - Partial days selected
+2020-04-13 01:10:17,712 [main] INFO stepdefinition - Assign button clicked
+2020-04-13 01:10:17,714 [main] INFO stepdefinition - Leave assigned 

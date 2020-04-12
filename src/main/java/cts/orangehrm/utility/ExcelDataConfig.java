@@ -6,9 +6,17 @@ import java.io.FileInputStream;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+/**
+ * class reads the data from excel sheet
+ * @author manasa thoutam
+ */
 public class ExcelDataConfig {
 	XSSFWorkbook wb;
 	XSSFSheet sheet1;
+	/**
+	 * This method is to set the File path and to open the Excel file,Pass Excel Path as Arguments to this method
+	 * @param excelpath
+	 */
 
 	public ExcelDataConfig(String excelpath) {
 
@@ -22,17 +30,32 @@ public class ExcelDataConfig {
 			System.out.println(e.getMessage());
 		} 
 	}
+	/**
+	 * This method is to read the test data from the Excel cell, in this we are passing parameters as sheetNumber,Row and Column 
+	 * @param sheetNumber
+	 * @param row
+	 * @param column
+	 * @return
+	 */
 	public String getData(int sheetNumber,int row,int column) {
 		sheet1=wb.getSheetAt(sheetNumber);
 		String data=sheet1.getRow(row).getCell(column).getStringCellValue();
 		return data;
 	}
-
+	/**
+	 * This method is to read the test data from the Excel cell, in this we are passing parameters as sheetIndex
+	 * @param sheetIndex
+	 * @return
+	 */
 	public int getRowCount(int sheetIndex) {
 		int row=wb.getSheetAt(sheetIndex).getLastRowNum();
 		row=row+1;
 		return row;
 	}
+	/**
+	 * This method is to pass data 
+	 * @return data
+	 */
 	public Object[][] passData() {
 
 
@@ -46,8 +69,8 @@ public class ExcelDataConfig {
 
 		return data;
 	}
-}
 
+}
 
 
 

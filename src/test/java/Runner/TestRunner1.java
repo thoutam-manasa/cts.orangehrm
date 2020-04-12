@@ -12,6 +12,10 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 
+/**
+ * @author manasa thoutam
+ * class created to run login page 
+ */
 @RunWith(Cucumber.class)
 @CucumberOptions(features="features",
 tags= {"@admin"},
@@ -21,9 +25,10 @@ plugin= {"html:target/cucumber-html.report"})
 public class TestRunner1 {
 	private TestNGCucumberRunner testRunner;
 
-
-
 	@BeforeClass
+	/**
+	 * method to method for Initializing the Objects
+	 */
 	public void setUP()
 	{
 		testRunner = new TestNGCucumberRunner(TestRunner1.class);			
@@ -36,18 +41,24 @@ public class TestRunner1 {
 	}
 
 	@DataProvider(name="features")
+	/**
+	 * method to read the test data from features
+	 * @return data
+	 */
 	public Object[][] getFeatures()
 	{
 		return testRunner.provideFeatures();
 	}
 
 	@AfterClass
+	/**
+	 * method to close the page
+	 * @throws InterruptedException
+	 */
 	public void tearDown() throws InterruptedException
 	{		
 		testRunner.finish();
-		
-
 	}
-
-
 }
+
+	

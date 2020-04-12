@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="510697" started-at="2020-04-12T11:34:38 IST" finished-at="2020-04-12T11:43:09 IST">
+  <suite name="Suite" duration-ms="200221" started-at="2020-04-13T01:07:03 IST" finished-at="2020-04-13T01:10:23 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="510697" started-at="2020-04-12T11:34:38 IST" finished-at="2020-04-12T11:43:09 IST">
+    <test name="Test" duration-ms="200221" started-at="2020-04-13T01:07:03 IST" finished-at="2020-04-13T01:10:23 IST">
       <class name="Runner.TestRunner">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:Runner.TestRunner@1563da5]" name="setUP" is-config="true" duration-ms="1201" started-at="2020-04-12T11:34:38 IST" finished-at="2020-04-12T11:34:40 IST">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:Runner.TestRunner@1563da5]" name="setUP" is-config="true" duration-ms="1139" started-at="2020-04-13T01:07:03 IST" finished-at="2020-04-13T01:07:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@1563da5]" name="login" duration-ms="141037" started-at="2020-04-12T11:34:40 IST" description="login" data-provider="features" finished-at="2020-04-12T11:37:01 IST">
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@1563da5]" name="login" duration-ms="97901" started-at="2020-04-13T01:07:05 IST" description="login" data-provider="features" finished-at="2020-04-13T01:08:43 IST">
           <params>
             <param index="0">
               <value>
@@ -22,70 +22,70 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Runner.TestRunner@1563da5]" name="tearDown" is-config="true" duration-ms="408" started-at="2020-04-12T11:37:01 IST" finished-at="2020-04-12T11:37:02 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Runner.TestRunner@1563da5]" name="tearDown" is-config="true" duration-ms="121" started-at="2020-04-13T01:08:43 IST" finished-at="2020-04-13T01:08:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Runner.TestRunner -->
       <class name="Runner.TestRunner1">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:Runner.TestRunner1@2bbf4b8b]" name="setUP" is-config="true" duration-ms="793" started-at="2020-04-12T11:37:02 IST" finished-at="2020-04-12T11:37:03 IST">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:Runner.TestRunner1@2bbf4b8b]" name="setUP" is-config="true" duration-ms="50" started-at="2020-04-13T01:08:43 IST" finished-at="2020-04-13T01:08:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner1@2bbf4b8b]" name="login" duration-ms="105471" started-at="2020-04-12T11:37:03 IST" description="search" data-provider="features" finished-at="2020-04-12T11:38:49 IST">
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner1@2bbf4b8b]" name="login" duration-ms="43518" started-at="2020-04-13T01:08:43 IST" description="search" data-provider="features" finished-at="2020-04-13T01:09:26 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[check the user details]]>
+                <![CDATA[check the system user details]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Runner.TestRunner1@2bbf4b8b]" name="tearDown" is-config="true" duration-ms="239" started-at="2020-04-12T11:38:49 IST" finished-at="2020-04-12T11:38:49 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Runner.TestRunner1@2bbf4b8b]" name="tearDown" is-config="true" duration-ms="27" started-at="2020-04-13T01:09:26 IST" finished-at="2020-04-13T01:09:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Runner.TestRunner1 -->
       <class name="Runner.TestRunner3">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:Runner.TestRunner3@33c7e1bb]" name="setUP" is-config="true" duration-ms="247" started-at="2020-04-12T11:40:37 IST" finished-at="2020-04-12T11:40:37 IST">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:Runner.TestRunner3@33c7e1bb]" name="setUP" is-config="true" duration-ms="31" started-at="2020-04-13T01:09:56 IST" finished-at="2020-04-13T01:09:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner3@33c7e1bb]" name="login" duration-ms="151363" started-at="2020-04-12T11:40:37 IST" description="leave" data-provider="features" finished-at="2020-04-12T11:43:09 IST">
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner3@33c7e1bb]" name="login" duration-ms="27300" started-at="2020-04-13T01:09:56 IST" description="leave" data-provider="features" finished-at="2020-04-13T01:10:23 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[check the user details]]>
+                <![CDATA[To assign leave to an employee]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Runner.TestRunner3@33c7e1bb]" name="tearDown" is-config="true" duration-ms="395" started-at="2020-04-12T11:43:09 IST" finished-at="2020-04-12T11:43:09 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Runner.TestRunner3@33c7e1bb]" name="tearDown" is-config="true" duration-ms="29" started-at="2020-04-13T01:10:23 IST" finished-at="2020-04-13T01:10:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Runner.TestRunner3 -->
       <class name="Runner.TestRunner2">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:Runner.TestRunner2@30a3107a]" name="setUP" is-config="true" duration-ms="258" started-at="2020-04-12T11:38:49 IST" finished-at="2020-04-12T11:38:49 IST">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:Runner.TestRunner2@30a3107a]" name="setUP" is-config="true" duration-ms="29" started-at="2020-04-13T01:09:26 IST" finished-at="2020-04-13T01:09:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner2@30a3107a]" name="login" duration-ms="107269" started-at="2020-04-12T11:38:49 IST" description="login" data-provider="features" finished-at="2020-04-12T11:40:37 IST">
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner2@30a3107a]" name="login" duration-ms="29084" started-at="2020-04-13T01:09:27 IST" description="search" data-provider="features" finished-at="2020-04-13T01:09:56 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[check the user details]]>
+                <![CDATA[check the  complete details of user]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Runner.TestRunner2@30a3107a]" name="tearDown" is-config="true" duration-ms="167" started-at="2020-04-12T11:40:37 IST" finished-at="2020-04-12T11:40:37 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Runner.TestRunner2@30a3107a]" name="tearDown" is-config="true" duration-ms="350" started-at="2020-04-13T01:09:56 IST" finished-at="2020-04-13T01:09:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

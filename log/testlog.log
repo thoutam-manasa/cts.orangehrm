@@ -1,0 +1,31 @@
+2020-04-13 01:07:09,256 - stepdefinition -INFO - Chrome Driver Opened
+2020-04-13 01:08:19,906 - stepdefinition -INFO - Navigated to URL
+2020-04-13 01:08:25,347 - stepdefinition -INFO - Credentials entered
+2020-04-13 01:08:33,716 - stepdefinition -INFO - Application is closed
+2020-04-13 01:08:43,732 - stepdefinition -INFO - Chrome Driver Opened
+2020-04-13 01:09:00,880 - stepdefinition -INFO - Navigated to URL
+2020-04-13 01:09:01,913 - stepdefinition -INFO - Credentials entered
+2020-04-13 01:09:16,110 - stepdefinition -INFO - Admin is clicked
+2020-04-13 01:09:18,891 - stepdefinition -INFO - username entered
+2020-04-13 01:09:20,685 - stepdefinition -INFO - Search button clicked
+2020-04-13 01:09:20,688 - stepdefinition -INFO - User details displayed
+2020-04-13 01:09:27,237 - stepdefinition -INFO - Chrome Driver Opened
+2020-04-13 01:09:39,315 - stepdefinition -INFO - Navigated to URL
+2020-04-13 01:09:40,130 - stepdefinition -INFO - Credentials entered
+2020-04-13 01:09:48,299 - stepdefinition -INFO - Directory is clicked
+2020-04-13 01:09:48,919 - stepdefinition -INFO - Employee name entered
+2020-04-13 01:09:49,961 - stepdefinition -INFO - Search button clicked
+2020-04-13 01:09:49,966 - stepdefinition -INFO - User details displayed
+2020-04-13 01:09:56,719 - stepdefinition -INFO - Chrome Driver Opened
+2020-04-13 01:10:05,993 - stepdefinition -INFO - Navigated to URL
+2020-04-13 01:10:06,751 - stepdefinition -INFO - Credentials entered
+2020-04-13 01:10:14,264 - stepdefinition -INFO - Assign leave is clicked 
+2020-04-13 01:10:15,315 - stepdefinition -INFO - Employee name entered
+2020-04-13 01:10:15,827 - stepdefinition -INFO - leave type selected
+2020-04-13 01:10:16,297 - stepdefinition -INFO - From calender clicked
+2020-04-13 01:10:16,594 - stepdefinition -INFO - From date entered
+2020-04-13 01:10:16,872 - stepdefinition -INFO - To calender clicked
+2020-04-13 01:10:17,130 - stepdefinition -INFO - To date entered
+2020-04-13 01:10:17,479 - stepdefinition -INFO - Partial days selected
+2020-04-13 01:10:17,712 - stepdefinition -INFO - Assign button clicked
+2020-04-13 01:10:17,714 - stepdefinition -INFO - Leave assigned 

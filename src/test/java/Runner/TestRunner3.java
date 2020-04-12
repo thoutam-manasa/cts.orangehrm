@@ -17,13 +17,16 @@ import cucumber.api.testng.TestNGCucumberRunner;
 tags= {"@leave"},
 glue= {"StepDefinition"},
 plugin= {"html:target/cucumber-html.report"})
-
+/**
+ * @author manasa thoutam
+ * class created to run login page 
+ */
 public class TestRunner3 {
 	private TestNGCucumberRunner testRunner;
-
-
-
 	@BeforeClass
+	/**
+	 * method to method for Initializing the Objects
+	 */
 	public void setUP()
 	{
 		testRunner = new TestNGCucumberRunner(TestRunner3.class);			
@@ -36,18 +39,25 @@ public class TestRunner3 {
 	}
 
 	@DataProvider(name="features")
+	/**
+	 * method to read the test data from features
+	 * @return data
+	 */
 	public Object[][] getFeatures()
 	{
 		return testRunner.provideFeatures();
 	}
 
 	@AfterClass
+	/**
+	 * method to close the page
+	 * @throws InterruptedException
+	 */
 	public void tearDown() throws InterruptedException
 	{		
 		testRunner.finish();
-		
-
 	}
-
-
 }
+
+
+	

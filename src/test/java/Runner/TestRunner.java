@@ -16,37 +16,48 @@ import cucumber.api.testng.TestNGCucumberRunner;
 	tags= {"@login"},
 	glue= {"StepDefinition"},
 	plugin= {"html:target/cucumber-html.report"})
-
+/**
+ * @author manasa thoutam
+ * class created to run login page 
+ */
 	public class TestRunner {
-		private TestNGCucumberRunner testRunner;
+	private TestNGCucumberRunner testRunner;
 
+	@BeforeClass
 
+	public void setUP()
+	/**
+	 * method to method for Initializing the Objects
+	 */
+	{
+		testRunner = new TestNGCucumberRunner(TestRunner.class);			
+	}
 
-		@BeforeClass
-		public void setUP()
-		{
-			testRunner = new TestNGCucumberRunner(TestRunner.class);			
-		}
+	@Test(description="login",dataProvider="features")
 
-		@Test(description="login",dataProvider="features")
-		public void login(CucumberFeatureWrapper cFeature)
-		{
-			testRunner.runCucumber(cFeature.getCucumberFeature());
-		}
+	public void login(CucumberFeatureWrapper cFeature)
+	{
+		testRunner.runCucumber(cFeature.getCucumberFeature());
+	}
+	/**
+	 * method to read the test data from features
+	 * @return data
+	 */
+	@DataProvider(name="features")
 
-		@DataProvider(name="features")
-		public Object[][] getFeatures()
-		{
-			return testRunner.provideFeatures();
-		}
+	public Object[][] getFeatures()
+	{
+		return testRunner.provideFeatures();
+	}
 
-		@AfterClass
-		public void tearDown() throws InterruptedException
-		{		
-			testRunner.finish();
-			
-
-		}
-
-
+	@AfterClass
+	/**
+	 * method to close the page
+	 * @throws InterruptedException
+	 */
+	public void tearDown() throws InterruptedException
+	{		
+		testRunner.finish();
+	}
 }
+

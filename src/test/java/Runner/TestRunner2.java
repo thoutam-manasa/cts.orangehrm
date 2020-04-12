@@ -17,37 +17,45 @@ import cucumber.api.testng.TestNGCucumberRunner;
 tags= {"@directory"},
 glue= {"StepDefinition"},
 plugin= {"html:target/cucumber-html.report"})
-
+/**
+ * @author manasa thoutam
+ * class created to run login page 
+ */
 public class TestRunner2 {
 	private TestNGCucumberRunner testRunner;
-
-
-
 	@BeforeClass
+	/**
+	 * method to method for Initializing the Objects
+	 */
 	public void setUP()
 	{
 		testRunner = new TestNGCucumberRunner(TestRunner2.class);			
 	}
 
-	@Test(description="login",dataProvider="features")
+	@Test(description="search",dataProvider="features")
 	public void login(CucumberFeatureWrapper cFeature)
 	{
 		testRunner.runCucumber(cFeature.getCucumberFeature());
 	}
 
 	@DataProvider(name="features")
+	/**
+	 * method to read the test data from features
+	 * @return data
+	 */
 	public Object[][] getFeatures()
 	{
 		return testRunner.provideFeatures();
 	}
 
 	@AfterClass
+	/**
+	 * method to close the page
+	 * @throws InterruptedException
+	 */
 	public void tearDown() throws InterruptedException
 	{		
 		testRunner.finish();
-		
-
 	}
-
-
 }
+
